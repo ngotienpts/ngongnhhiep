@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.webp" width="32" height="32">
+  <title>Emagazine</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+  <header id="header">
+    <section class="bg-skyblue-f1 d-md-block d-none">
+      <div class="header-top w-1080 d-flex align-items-center justify-content-between fs-12">
+        <div class="header__time "><span class="fw-600">Thứ 6,</span> 15/11/2019 10:25 (GMT+7)</div>
+        <div>
+          <ul class="header-top-list d-flex align-items-center">
+            <li class="d-flex align-items-center header-top__items">
+              <a href="#" class="header-top__links"><img src="./images/Facebook.svg" alt=""></a>
+              <a href="#" class="header-top__links"><img src="./images/google.svg" alt=""></a>
+              <a href="#" class="header-top__links"><img src="./images/Twitter.svg" alt=""></a>
+              <a href="#" class="header-top__links"><img src="./images/youtube.svg" alt=""></a>
+            </li>
+            <li class="d-flex align-items-center header-top__items">
+              Hà nội <span class="fw-600 header-top__temperature">25*C/61%</span><img src="./images/cloud.svg" alt="">
+            </li>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-f7 line1 ">
+      <div class="header d-flex align-items-center justify-content-between w-1080">
+        <div class="header-logo"><a href="#"><img src="./images/logo1.png" alt=""></a></div>
+        <ul class="nav-list d-lg-flex d-none align-items-center justify-content-between position-relative">
+          <li class="nav-items"><a href="#"><img src="./images/Home.svg" alt=""></a></li>
+          <li class="nav-items nav-items__dropdown position-relative">
+            <a href="#" class="text-gray-33 text-uppercase fs-14">Thời sự</a>
+            <ul class="nav-items__sub">
+              <li class="nav-items__subs"><a href="#" class="text-gray-33 fs-14">Thời sự</a></li>
+              <li class="nav-items__subs"><a href="#" class="text-gray-33 fs-14">Thời sự</a></li>
+              <li class="nav-items__subs"><a href="#" class="text-gray-33 fs-14">Thời sự</a></li>
+              <li class="nav-items__subs"><a href="#" class="text-gray-33 fs-14">Thời sự</a></li>
+            </ul>
+          </li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Lăng kính</a></li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Nông nghiệp tv</a></li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Kinh tế</a></li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Nông sản việt</a></li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Khuyến nông</a></li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Thủy sản</a></li>
+          <li class="nav-items"><a href="#" class="text-gray-33 text-uppercase fs-14">Lâm nghiệp</a></li>
+          <div class="line position-absolute"></div>
+        </ul>
+        <div class="nav-icon d-flex align-items-center justify-content-between">
+          <div class="nav-bar position-relative d-lg-block d-none">
+            <img src="./images/Hamburger.svg" alt="">
+            <ul class="nav-bar__list position-absolute">
+              <li class="nav-bar__items text-gray-33 fs-14"><a href="#">Lâm nghiệp</a></li>
+              <li class="nav-bar__items text-gray-33 fs-14"><a href="#">Lâm nghiệp</a></li>
+              <li class="nav-bar__items text-gray-33 fs-14"><a href="#">Lâm nghiệp</a></li>
+              <li class="nav-bar__items text-gray-33 fs-14"><a href="#">Lâm nghiệp</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-search position-relative">
+          <img src="./images/search.svg" alt="">
+          <div class="position-absolute show-nav-search">
+            <form action="">
+              <div class="form-group-t d-flex align-items-center">
+                <input type="search" class="form-control">
+                <button class="form-icon-search">
+                  <ion-icon name="search-outline"></ion-icon>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="d-block d-lg-none nav-bar-mb bg-green-23 text-white">
+      <ul class="nav-bar-mb__list d-flex align-items-center flex-nowrap">
+        <li class="nav-bar-mb__items"><img src="./images/barw.svg" alt=""></li>
+        <li class="nav-bar-mb__items ml-3 fw-600 text-uppercase fs-15"><a href="#" class="text-white">Thời sự</a></li>
+        <li class="nav-bar-mb__items ml-3 fw-600 text-uppercase fs-15"><a href="#" class="text-white">Lăng kính</a></li>
+        <li class="nav-bar-mb__items ml-3 fw-600 text-uppercase fs-15"><a href="#" class="text-white">nông nhiệp tv</a>
+        </li>
+        <li class="nav-bar-mb__items ml-3 fw-600 text-uppercase fs-15"><a href="#" class="text-white">Thời sự</a></li>
+        <li class="nav-bar-mb__items ml-3 fw-600 text-uppercase fs-15"><a href="#" class="text-white">Thời sự</a></li>
+        <li class="nav-bar-mb__items ml-3 fw-600 text-uppercase fs-15"><a href="#" class="text-white">Thời sự</a></li>
+      </ul>
+    </section>
+  </header>
+  <!-- menu mb -->
+  <section class="menu-sub-mb d-lg-none d-block">
+    <div class="menu-sub-mb-wrapper">
+      <span class="close-menu-mb">
+        <ion-icon name="close-outline" class="close-menu-mb__icon"></ion-icon>
+      </span>
+      <ul class="menu-sub-mb__list">
+        <li class="menu-sub-mb__items menu-sub-mb__dropdown py-2">
+          <a href="#" class="fs-20">Thời sự</a>
+          <ul class="menu-mb-items__list pl-3">
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+          </ul>
+        </li>
+        <li class="menu-sub-mb__items menu-sub-mb__dropdown py-2">
+          <a href="#" class="fs-20">Thời sự</a>
+          <ul class="menu-mb-items__list pl-3">
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+            <li class="menu-mb-items__items py-2"><a href="#">Thời sự</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- end menu mb -->
+  <main id="main">
+    <section class="w-1080 nav-cate px-md-0 px-3">
+      <ul class="nav-cate-list d-flex align-items-baseline line2 pb-2 flex-nowrap">
+        <li class="nav-cate__items"><a href="#"
+            class="text-uppercase text-green-03 fs-24 fw-500  nav-cate__parent position-relative">Thời sự</a></li>
+        <li class="nav-cate__items"><a href="#" class="text-gray-22 nav-cate__child active">Chính trị</a></li>
+        <li class="nav-cate__items"><a href="#" class="text-gray-22 nav-cate__child">Thời sự Nông nghiệp</a></li>
+        <li class="nav-cate__items"><a href="#" class="text-gray-22 nav-cate__child">Xã hội</a></li>
+        <li class="nav-cate__items"><a href="#" class="text-gray-22 nav-cate__child">Phóng sự</a></li>
+      </ul>
+    </section>
+    <section class="main-top-block bg-skyblue-f1">
+      <div class="position-relative d-lg-block d-none">
+        <div class="main-top-block__text position-absolute">
+          <span class="main-top-block__title fs-36 text-gray-33 line1 pb-2 mb-3 d-inline-block">Thời sự</span>
+          <div class="main-top-block__des font-secondary fw-700 fs-40">Bộ trưởng KHĐT: ‘Lập quy hoạch đúng giống như
+            chọn
+            được đường đi tốt’</div>
+        </div>
+      </div>
+      <div class="main-top-block__thumb">
+        <div class="">
+          <div class="thumb-img">
+            <div class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="main-top-block__text-mb d-lg-none d-block fs-32 fw-500 text-gray-33">Bộ trưởng KHĐT: ‘Lập quy hoạch
+        đúng giống như
+        chọn
+        được đường đi tốt’</div>
+    </section>
+    <section class="main-content-block w-1080 my-4">
+      <div class="main-content-block__left">
+        <!-- ======================================================================= -->
+        <div class="main-content-block__block1">
+          <div class="main-block__icon d-lg-block d-none">
+            <ul class="sticky-list">
+              <li class="sticky-items"><a href="#" class="fs-12 fw-600 text-skyblue-50"><img src="./images/document.svg"
+                    alt="">450</a></li>
+              <li class="sticky-items"><a href="#"><img src="./images/fbb.svg" alt=""></a></li>
+              <li class="sticky-items"><a href="#"><img src="./images/twitterb.svg" alt=""></a></li>
+              <li class="sticky-items"><a href="#"><img src="./images/zalob.svg" alt=""></a></li>
+              <li class="sticky-items"><a href="#"><img src="./images/link.svg" alt=""></a></li>
+              <li class="sticky-items"><a href="#"><img src="./images/bookmark.svg" alt=""></a></li>
+              <li class="sticky-items"><a href="#"><img src="./images/error.svg" alt=""></a></li>
+            </ul>
+          </div>
+          <!-- ======================================================================= -->
+          <div class="main-content-block__content">
+            <h1 class="font-secondary fs-32 fw-700 main-content-block__title">Bộ trưởng Kế hoạch và Đầu tư Nguyễn Chí
+              Dũng
+              cho rằng việc lập quy hoạch có vai trò rất quan trọng, như việc chọn được con đường đi tốt nhất để phát
+              triển
+              nhanh và bền vững.</h1>
+            <p>Trước khi Luật Quy hoạch được Quốc hội ban hành vào năm 2017, cả nước
+              có tới gần 20.000 bản quy hoạch khác nhau. Số quy hoạch nhiều nhưng thiếu sự liên kết, thậm chí là xảy ra
+              chuyện "cát cứ" giữa các ngành, lĩnh vực, địa phương, vùng miền, dẫn tới nguồn lực không được tận dụng một
+              cách hiệu quả nhất.</p>
+            <p>Với việc ban hành Luật Quy hoạch, Quốc hội và Chính phủ quyết tâm đổi
+              mới công tác quy hoạch, theo hướng thống nhất, đồng bộ, tích hợp. Tuy vậy, việc lập quy hoạch quốc gia,
+              quy
+              hoạch vùng, ngành, địa phương đang có sự chậm trễ nhất định. Khi chưa có quy hoạch, nhiều nơi gặp khó khăn
+              trong việc triển khai các kế hoạch phát triển kinh tế - xã hội.
+              Để tháo gỡ vấn đề này, trong sáng 19/8, Thủ tướng Phạm Minh Chính chủ trì hội nghị toàn quốc về công tác
+              quy
+              hoạch, các điểm cầu được nối tới từng địa phương. Việc xúc tiến đẩy nhanh lập quy hoạch là bước khởi đầu
+              quan
+              trọng trong việc hiện thực hóa các mục tiêu phát triển đã đề ra.</p>
+
+            <p>Nhân dịp này, Zing cũng có cuộc phỏng vấn Bộ trưởng Kế hoạch và Đầu tư
+              (KHĐT) Nguyễn Chí Dũng. Bộ KHĐT là cơ quan tham mưu tổng hợp về chiến lược, quy hoạch của Chính phủ. Bộ
+              cũng
+              đi đầu trong việc đổi mới công tác quy hoạch, cũng là cơ quan chủ trì soạn thảo Luật Quy hoạch.</p>
+            <h2>Đổi mới tư duy và tầm nhìn trong lập quy hoạch
+
+            </h2>
+            <p>- Bộ trưởng có thể cho biết tầm quan trọng của việc đẩy nhanh lập các quy hoạch quốc gia, quy hoạch
+              ngành,
+              địa phương?</p>
+            <p>- Trước hết ta thấy rằng việc ban hành một luật riêng về quy hoạch là việc rất quan trọng với sự phát
+              triển
+              kinh tế - xã hội của đất nước giai đoạn tới. Đây cũng là việc rất khó khi luật rất phức tạp, liên quan đến
+              nhiều ngành, lĩnh vực, thay đổi cả phương pháp tiếp cận và công tác quản lý Nhà nước.</p>
+            <figure>
+              <img src="./images/thutuong.jpg" alt="">
+            </figure>
+            <p>- Trước hết ta thấy rằng việc ban hành một luật riêng về quy hoạch là việc rất quan trọng với sự phát
+              triển
+              kinh tế - xã hội của đất nước giai đoạn tới. Đây cũng là việc rất khó khi luật rất phức tạp, liên quan đến
+              nhiều ngành, lĩnh vực, thay đổi cả phương pháp tiếp cận và công tác quản lý Nhà nước.</p>
+            <p>- Trước hết ta thấy rằng việc ban hành một luật riêng về quy hoạch là việc rất quan trọng với sự phát
+              triển
+              kinh tế - xã hội của đất nước giai đoạn tới. Đây cũng là việc rất khó khi luật rất phức tạp, liên quan đến
+              nhiều ngành, lĩnh vực, thay đổi cả phương pháp tiếp cận và công tác quản lý Nhà nước.</p>
+            <div class="blockquote">
+              <div class="blockquote-left">
+                <p>- Trước hết ta thấy rằng việc ban hành một luật riêng về quy hoạch là việc rất quan trọng với sự phát
+                  triển
+                  kinh tế - xã hội của đất nước giai đoạn tới. Đây cũng là việc rất khó khi luật rất phức tạp, liên quan
+                  đến
+                  nhiều ngành, lĩnh vực, thay đổi cả phương pháp tiếp cận và công tác quản lý Nhà nước.</p>
+                <p>- Trước hết ta thấy rằng việc ban hành một luật riêng về quy hoạch là việc rất quan trọng với sự phát
+                  triển
+                  kinh tế - xã hội của đất nước giai đoạn tới. Đây cũng là việc rất khó khi luật rất phức tạp, liên quan
+                  đến
+                  nhiều ngành, lĩnh vực, thay đổi cả phương pháp tiếp cận và công tác quản lý Nhà nước.</p>
+              </div>
+              <blockquote class="blockquote-right">
+                <p>Không ai hiểu mình hơn chính mình. Do đó, tỉnh xác định tầm nhìn, mong muốn trong 20-30 năm tới sẽ
+                  như
+                  thế nào, từ đó xác định việc lập quy hoạch sao cho phù hợp</p>
+                <span class="author">Bộ trưởng Nguyễn Chí Dũng</span>
+              </blockquote>
+            </div>
+            <div class="author">Tý mỡ</div>
+          </div>
+        </div>
+        <!-- ======================================================================= -->
+        <div
+          class="main-content-block__block2 d-lg-flex d-block align-items-center justify-content-between mt-4 line2 pb-4">
+          <ul class="social-network d-flex align-items-center justify-content-between">
+            <li class="social-network-fb-share ">
+              <a href="#" class="d-flex align-items-center fs-12 text-white">
+                <span><img src="./images/fbw.svg" alt=""></span>
+                <span>Chia sẻ Facebook</span>
+              </a>
+            </li>
+            <li class="social-network-like d-flex align-items-center">
+              <a href="#" class="d-flex align-items-baseline fs-12 text-white">
+                <img src="./images/likew.svg" alt="">thích
+              </a>
+            </li>
+            <li class="social-network-twitter d-flex align-items-center"><a href="#"
+                class="d-flex align-items-center"><img src="./images/twitterw.svg" alt=""></a></li>
+            <li class="social-network-zalo d-flex align-items-center justify-content-center"><a href="#"><img
+                  src="./images/zalo.svg" alt=""></a></li>
+          </ul>
+          <ul class="rate d-lg-flex d-none align-items-center justify-content-between">
+            <li class="rate-like d-flex align-items-center mr-4 fs-15"><img src="./images/likeg.svg" alt="">15</li>
+            <li class="rate-unlike d-flex align-items-center mr-4 fs-15"><img src="./images/unlike.svg" alt="">15</li>
+            <li class="rate-care d-flex align-items-center fs-13"><img src="./images/plus.svg" alt="">quan tâm 15</li>
+          </ul>
+        </div>
+        <!-- ======================================================================= -->
+        <div class="banner-horizontal mt-4 line2 pb-4">
+          <img src="./images/banner2.png" alt="">
+        </div>
+        <!-- ======================================================================= -->
+        <div class="cmt-related-wrapper">
+          <div class="coment-block">
+            <div class="line2 pb-4">
+              <div class="comment mt-4 d-flex">
+                <div class="cmt-avatar"><img src="./images/thutuong.jpg" alt=""></div>
+                <div class="cmt-content pl-lg-3 pl-2">
+                  <div class="cmt-content__header d-flex align-items-center justify-content-between">
+                    <div class="d-lg-flex d-block align-items-center">
+                      <div class="cmt-content__title fs-14 font-arial text-black fw-600 mr-5">Tuấn anh nguyễn</div>
+                      <div class="cmt-content__intro fs-12 text-gray-77 d-flex align-items-center">
+                        <span class="cmt-content__day mr-3">15/11/2021</span>
+                        <span class="cmt-content__time mr-3">10:30</span>
+                        <span class="cmt-content__rep d-flex align-items-center mr-3"><img src="./images/rep.svg"
+                            alt="">Trả
+                          lời</span>
+                        <span class="cmt-content__like d-flex align-items-center mr-3"><img src="./images/likeg.svg"
+                            alt="">9</span>
+                        <span class="cmt-content__unlike d-flex align-items-center mr-3"><img src="./images/unlike.svg"
+                            alt="">9</span>
+                      </div>
+                    </div>
+                    <div class="cmt-content__more position-relative">
+                      <span class="cmt-content__span">...</span>
+                      <ul class="cmt-content__list">
+                        <li class="cmt-content__items fs-14 text-gray-77">Chỉnh sửa</li>
+                        <li class="cmt-content__items fs-14 text-gray-77">Xoá</li>
+                        <li class="cmt-content__items fs-14 text-gray-77">Báo cáo</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <p class="cmt-content__text font-arial fs-14 text-gray-44 mt-2">Rất nhiều công trình trọng điểm do nhà
+                    thầu Trung Quốc thi công gặp rất nhiều trục trặc về tiến độ, đội vốn .. nhưng Trung Quốc vẫn luôn
+                    thắng
+                    thầu ở những dự án quan trọng tại Việt nam.
+                  </p>
+                </div>
+              </div>
+              <!-- ======================================================= -->
+              <div class="ml-lg-5 ml-3">
+                <div class="comment mt-4 d-flex">
+                  <div class="cmt-avatar"><img src="./images/thutuong.jpg" alt=""></div>
+                  <div class="cmt-content pl-lg-3 pl-2">
+                    <div class="cmt-content__header d-flex align-items-center justify-content-between">
+                      <div class="d-lg-flex d-block align-items-center">
+                        <div class="cmt-content__title fs-14 font-arial text-black fw-600 mr-5">Tuấn anh nguyễn</div>
+                        <div class="cmt-content__intro fs-12 text-gray-77 d-flex align-items-center">
+                          <span class="cmt-content__day mr-3">15/11/2021</span>
+                          <span class="cmt-content__time mr-3">10:30</span>
+                          <span class="cmt-content__rep d-flex align-items-center mr-3"><img src="./images/rep.svg"
+                              alt="">Trả
+                            lời</span>
+                          <span class="cmt-content__like d-flex align-items-center mr-3"><img src="./images/likeg.svg"
+                              alt="">9</span>
+                          <span class="cmt-content__unlike d-flex align-items-center mr-3"><img src="./images/unlike.svg"
+                              alt="">9</span>
+                        </div>
+                      </div>
+                      <div class="cmt-content__more position-relative">
+                        <span class="cmt-content__span">...</span>
+                        <ul class="cmt-content__list">
+                          <li class="cmt-content__items fs-14 text-gray-77">Chỉnh sửa</li>
+                          <li class="cmt-content__items fs-14 text-gray-77">Xoá</li>
+                          <li class="cmt-content__items fs-14 text-gray-77">Báo cáo</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p class="cmt-content__text font-arial fs-14 text-gray-44 mt-2">Rất nhiều công trình trọng điểm do nhà
+                      thầu Trung Quốc thi công gặp rất nhiều trục trặc về tiến độ, đội vốn .. nhưng Trung Quốc vẫn luôn
+                      thắng
+                      thầu ở những dự án quan trọng tại Việt nam.
+                    </p>
+                  </div>
+                </div>
+                <div class="input-cmt mt-4">
+                  <div class="cmt-field d-flex">
+                    <div class="cmt-avatar"><img src="./images/thutuong.jpg" alt=""></div>
+                    <div class="cmt-form">
+                      <form action="">
+                        <div class="form-group">
+                          <textarea id="comment_text" name="comment_text" class="textarea-cmt"
+                            placeholder="Viết bình luận..."
+                            oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="send-cmt post_comment click_cmt">
+                    <img src="./images/enter.svg" class="" width="20" height="20" alt="Bình luận">
+                  </div>
+                </div>
+              </div>
+              <!-- ======================================================= -->
+            </div>
+            <!-- ======================================================================= -->
+            <div class="input-cmt mt-4">
+              <div class="cmt-field d-flex">
+                <div class="cmt-avatar"><img src="./images/thutuong.jpg" alt=""></div>
+                <div class="cmt-form">
+                  <form action="">
+                    <div class="form-group">
+                      <textarea id="comment_text" name="comment_text" class="textarea-cmt" placeholder="Viết bình luận..."
+                        oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="send-cmt post_comment click_cmt">
+                <img src="./images/enter.svg" class="" width="20" height="20" alt="Bình luận">
+              </div>
+            </div>
+          </div>
+          <!-- ======================================================================= -->
+          <ul class="related-new bg-gray-f7 mt-4 p-4">
+            <li class="related-new-title text-uppercase fs-18 text-gray-33 fw-500">Tin liên quan</li>
+            <li class="related-new-items pt-3 fs-15"><a href="#" class="text-gray-4f">Thủ tướng: 'Không được để thảm kịch
+                ở Anh tái diễn'</a></li>
+            <li class="related-new-items pt-3 fs-15"><a href="#" class="text-gray-4f">Thủ tướng: 'Không được để thảm kịch
+                ở Anh tái diễn'</a></li>
+            <li class="related-new-items pt-3 fs-15"><a href="#" class="text-gray-4f">Thủ tướng: 'Không được để thảm kịch
+                ở Anh tái diễn'</a></li>
+            <li class="related-new-items pt-3 fs-15"><a href="#" class="text-gray-4f">Thủ tướng: 'Không được để thảm kịch
+                ở Anh tái diễn'</a></li>
+            <li class="related-new-items pt-3 fs-15"><a href="#" class="text-gray-4f">Thủ tướng: 'Không được để thảm kịch
+                ở Anh tái diễn'</a></li>
+          </ul>
+          <!-- ======================================================================= -->
+          <ul class="tag-list d-flex flex-wrap align-items-center mt-4">
+            <li class="tag-icon d-flex align-items-center fs-14 mb-lg-0 mb-3"><img src="./images/tag.svg" alt="">Tags:</li>
+            <li class="tag-items btn mb-3"><a href="#" class="fs-15 text-gray-4f">Viêt nam</a></li>
+            <li class="tag-items btn mb-3 active"><a href="#" class="fs-15 text-gray-4f">Cafe</a></li>
+            <li class="tag-items btn mb-3"><a href="#" class="fs-15 text-gray-4f">Phân bón</a></li>
+            <li class="tag-items btn mb-3"><a href="#" class="fs-15 text-gray-4f">Vật nuôi</a></li>
+            <li class="tag-items btn mb-3"><a href="#" class="fs-15 text-gray-4f">Cây trồng</a></li>
+          </ul>
+        </div>
+        <!-- ======================================================================= -->
+        <div class="cate-together bg-skyblue-f1 my-4 p-3">
+          <div class="cate-together__title d-flex align-items-center fw-500 fs-24 text-green-03 text-uppercase"><span
+              class="cate-icon"></span>Cùng chuyên mục</div>
+          <div class="cate-together-list">
+            <div class="cate-together__items mt-3">
+              <div class="cate-together__thumb">
+                <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" width="494"
+                      height="297" alt=""></a>
+                </div>
+              </div>
+              <div class="cate-together__text fw-500 text-gray-33 mt-3">Việt Nam nghiên cứu giải pháp chặn sản phẩm có
+                'đường lưỡi bò'</div>
+              <p class="fs-15 font-arial text-gray-44 pt-3 mb-4 d-lg-none d-block">Từ 12h ngày 16/9, Hà Nội cho phép mở
+                hoạt động kinh doanh dịch vụ ăn uống (chỉ bán mang về), văn phòng phẩm… tại các quận, huyện chưa ghi
+                nhận ca nhiễm cộng đồng.</p>
+            </div>
+            <div class="cate-together__items mt-3">
+              <div class="cate-together__thumb">
+                <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" width="494"
+                      height="297" alt=""></a>
+                </div>
+              </div>
+              <div class="cate-together__text fw-500 text-gray-33 mt-3">Việt Nam nghiên cứu giải pháp chặn sản phẩm có
+                'đường lưỡi bò'</div>
+              <p class="fs-15 font-arial text-gray-44 pt-3 mb-4 d-lg-none d-block">Từ 12h ngày 16/9, Hà Nội cho phép mở
+                hoạt động kinh doanh dịch vụ ăn uống (chỉ bán mang về), văn phòng phẩm… tại các quận, huyện chưa ghi
+                nhận ca nhiễm cộng đồng.</p>
+            </div>
+            <div class="cate-together__items mt-3">
+              <div class="cate-together__thumb">
+                <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" width="494"
+                      height="297" alt=""></a>
+                </div>
+              </div>
+              <div class="cate-together__text fw-500 text-gray-33 mt-3">Việt Nam nghiên cứu giải pháp chặn sản phẩm có
+                'đường lưỡi bò'</div>
+              <p class="fs-15 font-arial text-gray-44 pt-3 mb-4 d-lg-none d-block">Từ 12h ngày 16/9, Hà Nội cho phép mở
+                hoạt động kinh doanh dịch vụ ăn uống (chỉ bán mang về), văn phòng phẩm… tại các quận, huyện chưa ghi
+                nhận ca nhiễm cộng đồng.</p>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================================================= -->
+        <div class="other-news d-lg-block d-none">
+          <div class="other-news__items py-3 line2">
+            <div class="other-news__thumb">
+              <div class="">
+                <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" width="494"
+                      height="297" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="other-news__content">
+              <h3 class="other-news__title fs-20 fw-500"><a href="#" class="text-gray-33">Bộ trưởng Nội vụ: 'Rất ít nơi
+                  đăng ký thi tuyển lãnh đạo'</a>
+              </h3>
+              <div class="other-news__info my-3 fs-14">
+                <span class="other-news__cate"><a href="#" class="text-skyblue-50">Thời sự</a></span>
+                <span class="other-news__time text-gray-77 ml-4">16:00</span>
+              </div>
+              <p class="other-news__des fs-14 text-gray-44">Bộ Nội vụ yêu cầu các bộ ngành, địa phương đăng ký thi tuyển
+                lãnh đạo cấp vụ, cấp phòng song "rất ít nơi" hưởng ứng.
+              </p>
+            </div>
+          </div>
+          <div class="other-news__items py-3 line2">
+            <div class="other-news__thumb">
+              <div class="">
+                <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" width="494"
+                      height="297" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="other-news__content">
+              <h3 class="other-news__title fs-20 fw-500"><a href="#" class="text-gray-33">Bộ trưởng Nội vụ: 'Rất ít nơi
+                  đăng ký thi tuyển lãnh đạo'</a>
+              </h3>
+              <div class="other-news__info my-3 fs-14">
+                <span class="other-news__cate"><a href="#" class="text-skyblue-50">Thời sự</a></span>
+                <span class="other-news__time text-gray-77 ml-4">16:00</span>
+              </div>
+              <p class="other-news__des fs-14 text-gray-44">Bộ Nội vụ yêu cầu các bộ ngành, địa phương đăng ký thi tuyển
+                lãnh đạo cấp vụ, cấp phòng song "rất ít nơi" hưởng ứng.
+              </p>
+            </div>
+          </div>
+          <div class="other-news__items py-3 line2">
+            <div class="other-news__thumb">
+              <div class="">
+                <div class="thumb-img">
+                  <a href="#" class="thumb-item thumb-5x3"><img class="" src="./images/thutuong.jpg" width="494"
+                      height="297" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="other-news__content">
+              <h3 class="other-news__title fs-20 fw-500"><a href="#" class="text-gray-33">Bộ trưởng Nội vụ: 'Rất ít nơi
+                  đăng ký thi tuyển lãnh đạo'</a>
+              </h3>
+              <div class="other-news__info my-3 fs-14">
+                <span class="other-news__cate"><a href="#" class="text-skyblue-50">Thời sự</a></span>
+                <span class="other-news__time text-gray-77 ml-4">16:00</span>
+              </div>
+              <p class="other-news__des fs-14 text-gray-44">Bộ Nội vụ yêu cầu các bộ ngành, địa phương đăng ký thi tuyển
+                lãnh đạo cấp vụ, cấp phòng song "rất ít nơi" hưởng ứng.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================================= -->
+        <div class="banner-horizontal mt-4 pb-4">
+          <img src="./images/banner2.png" alt="">
+        </div>
+        <!-- ======================================================================= -->
+
+      </div>
+      <div class="main-content-block__right d-lg-block d-none">
+        <div>
+          <a href="#">
+            <img src="./images/banner1.jpg" alt="">
+          </a>
+        </div>
+        <!-- ========================================================================================== -->
+        <div class="most-read my-4">
+          <div class="most-read__title d-flex align-items-center fw-500 fs-24 text-green-03 text-uppercase"><span
+              class="cate-icon"></span>đọc nhiều nhất</div>
+          <ul class="most-read-list">
+            <li class="most-read__items d-flex align-items-center line2 py-3"><span
+                class="most-read__number fs-24 fw-300">1</span><a href="#" class="fs-14 fw-500 text-gray-33">Cải hoán
+                tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+            <li class="most-read__items d-flex align-items-center line2 py-3"><span
+                class="most-read__number fs-24 fw-300">1</span><a href="#" class="fs-14 fw-500 text-gray-33">Cải hoán
+                tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+            <li class="most-read__items d-flex align-items-center line2 py-3"><span
+                class="most-read__number fs-24 fw-300">1</span><a href="#" class="fs-14 fw-500 text-gray-33">Cải hoán
+                tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+            <li class="most-read__items d-flex align-items-center line2 py-3"><span
+                class="most-read__number fs-24 fw-300">1</span><a href="#" class="fs-14 fw-500 text-gray-33">Cải hoán
+                tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+          </ul>
+        </div>
+        <!-- ============================================================================== -->
+        <div class="cmt-hot my-4">
+          <div class="cmt-hot__title d-flex align-items-center fw-500 fs-24 text-green-03 text-uppercase"><span
+              class="cate-icon"></span>Bình luận nhiều nhất</div>
+          <ul class="cmt-hot-list">
+            <li class="cmt-hot__items d-flex align-items-center line2 py-3"><span
+                class="cmt-hot__icon fs-24 fw-300"><img src="./images/documentb.svg" alt=""></span><a href="#"
+                class="fs-14 font-arial text-gray-33">Cải hoán tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+            <li class="cmt-hot__items d-flex align-items-center line2 py-3"><span
+                class="cmt-hot__icon fs-24 fw-300"><img src="./images/documentb.svg" alt=""></span><a href="#"
+                class="fs-14 font-arial text-gray-33">Cải hoán tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+            <li class="cmt-hot__items d-flex align-items-center line2 py-3"><span
+                class="cmt-hot__icon fs-24 fw-300"><img src="./images/documentb.svg" alt=""></span><a href="#"
+                class="fs-14 font-arial text-gray-33">Cải hoán tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+            <li class="cmt-hot__items d-flex align-items-center line2 py-3"><span
+                class="cmt-hot__icon fs-24 fw-300"><img src="./images/documentb.svg" alt=""></span><a href="#"
+                class="fs-14 font-arial text-gray-33">Cải hoán tàu cá ở Quảng Bình: Ngư dân băn khoăn, lo lắng
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="bg-skyblue-f1">
+    <section class="w-1080 py-4">
+      <div class="d-lg-flex d-none justify-content-center"><img src="./images/logo1.png" alt=""></div>
+      <div class="d-flex d-lg-none justify-content-center line2 pb-4"><img src="./images/logo2.svg" alt=""></div>
+      <ul class="footer-rss d-flex align-items-center justify-content-center mt-3">
+        <li class="footer-rss__items fs-12 font-arial"><a href="#" class="text-skyblue-50 ">Đặt báo</a></li>
+        <li class="footer-rss__items fs-12 font-arial ml-4"><a href="#" class="text-skyblue-50 ">Quảng cáo</a></li>
+        <li class="footer-rss__items fs-12 font-arial ml-4"><a href="#" class="text-skyblue-50 ">RSS</a></li>
+        <li class="footer-rss__items fs-12 font-arial ml-4"><a href="#" class="text-skyblue-50 ">Thông tin tòa soạn</a>
+        </li>
+      </ul>
+      <ul class="footer-navbar d-lg-flex d-none align-items-center flex-wrap mt-5 line2 pb-2">
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+        <li class="footer-navbar__items fs-14  fw-600 text-uppercase"><a href="#" class="text-gray-55">Thời sự</a></li>
+      </ul>
+      <div class="footer-info line2 py-4 d-lg-flex d-block justify-content-between px-lg-0 px-3">
+        <div class="footer-info-left fs-12 font-arial">
+          <p class="pb-1">Giấy phép hoạt động Báo điện tử số: <span class="fw-600">167/GB - BTTTT.</span> Bộ trưởng Bộ
+            TTTT cấp ngày 20/4/2017</p>
+          <p class="pb-1">Địa chỉ:<span class="fw-600">14 Ngô Quyền - Hoàn Kiếm - Hà Nội, Điện thoại: 024.38256492 -
+              Fax: 024.38252923</span></p>
+          <p class="pb-1">Email:<span class="fw-600"> baonnvn@hn.vnn.vn & baonnvnts@gmail.com</span></p>
+        </div>
+        <div class="footer-info-right fs-12 font-arial text-right">
+          <p class="pb-1">Tổng Biên tập:<span class="fw-600"> Nguyễn Ngọc Thạch</span></p>
+          <p class="pb-1">Phó Tổng Biên tập: <span class="fw-600">Lê Trọng Đảm, Vũ Minh Việt</span></p>
+          <p class="pb-1">Trưởng Ban báo Điện tử: <span class="fw-600">Mai Xuân Nghiên</span></p>
+        </div>
+      </div>
+      <p class="fs-12 font-arial text-gray-55 text-center py-3 d-lg-block d-none">Mọi hành động sử dụng nội dung của
+        nongnghiep.vn phải có sự đồng ý bằng văn bản của Báo Nông nghiệp Việt Nam</p>
+      <img src="./images/dmca.png" alt="" class="mx-auto d-lg-block d-none">
+      <div class="d-lg-none d-flex align-items-center justify-content-center">
+        <a href="#"> <img src="./images/Facebooksky.svg" alt="" class="mr-3"></a>
+        <a href="#"><img src="./images/Twittersky.svg" alt="" class="mr-3"></a>
+        <a href="#"> <img src="./images/yourubsky.svg" alt="">
+        </a>
+      </div>
+    </section>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
